@@ -91,3 +91,4 @@ data:
 
 
 php -i | grep php.ini
+/usr/local/etc/php/xdebug/modules/xdebug.so
