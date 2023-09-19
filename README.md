@@ -82,3 +82,12 @@ data:
 # mysql -h localhost --protocol=TCP -u root -p
 # mysql -h localhost --protocol=TCP -u root -p taravel_docker < local_dbname
 ```
+
+
+
+
+
+
+
+
+php -i | grep php.ini
