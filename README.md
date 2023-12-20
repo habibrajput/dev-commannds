@@ -84,6 +84,13 @@ data:
 ```
 
 
+### Laravel -- Resolve too_long_FK_issue
+```bash
+$table->primary(['header_mini_slider_id', 'country_id'], 'header_slider_id_country_id');
+```
+
+
+
 
 
 
