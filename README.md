@@ -88,6 +88,10 @@ data:
 ```bash
 $table->primary(['header_mini_slider_id', 'country_id'], 'header_slider_id_country_id');
 $table->foreign('header_mini_slider_slide_id','slider_id')->references('id')->on('header_mini_slider_slides');
+
+SET FOREIGN_KEY_CHECKS=0;
+SET GLOBAL FOREIGN_KEY_CHECKS=0;
+SHOW Variables WHERE Variable_name='foreign_key_checks';
 ```
 
 
