@@ -93,7 +93,10 @@ SET FOREIGN_KEY_CHECKS=0;
 SET GLOBAL FOREIGN_KEY_CHECKS=0;
 SHOW Variables WHERE Variable_name='foreign_key_checks';
 ```
-
+### Git -- Force Commit Specific commit.
+```bash
+git push origin +662188f2858eacb8b8bcc1a5ae1fe37f1d042abc:refactor-event-module
+```
 
 
 
