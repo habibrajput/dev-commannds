@@ -95,7 +95,14 @@ SHOW Variables WHERE Variable_name='foreign_key_checks';
 ```
 ### Git -- Force Commit Specific commit.
 ```bash
+Revert branch to specific commit
 git push origin +662188f2858eacb8b8bcc1a5ae1fe37f1d042abc:refactor-event-module
+
+-Merge specific commit
+git cherry-pick 9706a3fb4fb24c4c83f631e80bd945a35b90c905
+
+-Undo latest commit
+git reset --hard HEAD~1
 ```
 
 
