@@ -104,7 +104,30 @@ git cherry-pick 9706a3fb4fb24c4c83f631e80bd945a35b90c905
 -Undo latest commit
 git reset --hard HEAD~1
 ```
+-Pass code as arguments as function.
+```bash
+function tryCatch($fn)
+{
+    return function () use ($fn) {
+        try {
+            return $fn(...func_get_args());
+        } catch (\Exception $e) {
+            echo $e->getMessage();
+        }
+    };
+}
 
+function getUser($name)
+{
+    $fn = tryCatch(function () use ($name) {
+        echo 'Hello from function - ' . $name;
+    });
+
+    return $fn();
+}
+
+getUser("habib.Ur.Rehman");
+```
 
 
 
