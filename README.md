@@ -129,6 +129,8 @@ function getUser($name)
 getUser("habib.Ur.Rehman");
 ```
 ### [All Language Functions](https://overapi.com/git)
-
+```bash
+https://overapi.com/git
+```
 php -i | grep php.ini
 /usr/local/etc/php/xdebug/modules/xdebug.so
