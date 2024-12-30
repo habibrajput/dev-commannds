@@ -144,3 +144,7 @@ https://overapi.com/git
 ```
 php -i | grep php.ini
 /usr/local/etc/php/xdebug/modules/xdebug.so
+
+
+**/vendor/**, *.txt, *.json, *.lock, *.md, config
+
