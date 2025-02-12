@@ -87,6 +87,7 @@ data:
 ### Laravel -- Resolve too_long_FK_issue
 ```bash
 $table->primary(['header_mini_slider_id', 'country_id'], 'header_slider_id_country_id');
+$table->unique(['event_slider_banner_banner_id', 'locale'], 'event_slider_locale_unique');
 $table->foreign('header_mini_slider_slide_id','slider_id')->references('id')->on('header_mini_slider_slides');
 
 SET FOREIGN_KEY_CHECKS=0;
